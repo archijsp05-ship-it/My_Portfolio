@@ -8,7 +8,7 @@ The website is designed to provide an overview of my work and help recruiters an
 
 ## 🔗 Portfolio
 
-[View My Protfolio]file:///C:/Archi/project/thiranex/portfolio/index.html
+[View My Protfolio](file:///C:/Archi/project/thiranex/portfolio/index.html)
 
 ## 🎯 Objectives
 
