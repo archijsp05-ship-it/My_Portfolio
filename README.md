@@ -6,6 +6,10 @@ This project is a personal portfolio website developed as part of my web develop
 
 The website is designed to provide an overview of my work and help recruiters and developers learn more about my skills and experience.
 
+## 🔗 Repository
+
+[View Source Code on GitHub](PASTE_YOUR_REPOSITORY_LINK_HERE)
+
 ## 🎯 Objectives
 
 - Build a professional personal portfolio website.
