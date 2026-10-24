@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Archi Gupta | Web Developer Portfolio – Home</title>
+  <meta name="description" content="Portfolio of Archi Gupta, a BCA student learning web development, with projects built using semantic HTML5, CSS3, JavaScript and accessibility best practices.">
+  <meta name="theme-color" content="#2f6b4f">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Archi Gupta Portfolio">
+  <meta property="og:title" content="Archi Gupta | Web Developer Portfolio">
+  <meta property="og:description" content="A BCA student learning web development, building accessible websites with HTML5, CSS3 and JavaScript.">
+  <meta property="og:locale" content="en_IN">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">AG</span>
+        Archi Gupta
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+          <span class="nav-toggle__bars" aria-hidden="true"></span>
+          Menu
+        </button>
+        <ul class="nav-menu" id="primary-menu">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero__grid">
+        <div class="hero__text fade-up">
+          <p class="eyebrow">Web Development Intern · Thiranex EduTech LLP</p>
+          <h1 id="hero-heading">Hi, I'm Archi Gupta. <span class="accent">I build for the web.</span></h1>
+          <p class="lead">I'm a student learning web development. I enjoy turning ideas into clean, responsive pages that work for everyone, including people who use keyboards and screen readers.</p>
+          <div class="btn-row">
+            <a class="btn btn--primary" href="projects.html">View my projects</a>
+            <a class="btn btn--ghost" href="contact.html">Contact me</a>
+          </div>
+        </div>
+
+        <figure class="code-card fade-up">
+          <pre><code>&lt;header&gt;
+  &lt;nav aria-label="Main"&gt;…&lt;/nav&gt;
+&lt;/header&gt;
+&lt;main id="main-content"&gt;
+  &lt;h1&gt;Hi, I'm Archi Gupta.&lt;/h1&gt;
+&lt;/main&gt;
+&lt;footer&gt;…&lt;/footer&gt;</code></pre>
+          <figcaption>Semantic HTML5 landmarks: the foundation of every page on this site.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- SKILLS OVERVIEW -->
+    <section class="section section--tint" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section__intro">
+          <h2 id="skills-heading">What I'm learning and practising</h2>
+          <p>These are the core areas of my internship project. Each one is used throughout this website.</p>
+        </div>
+        <div class="grid grid--4">
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">&lt;/&gt;</span>
+            <h3>HTML5</h3>
+            <p>Meaningful page structure using semantic elements such as header, nav, main, section and footer.</p>
+          </article>
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">{ }</span>
+            <h3>CSS3</h3>
+            <p>Responsive layouts with Grid and Flexbox, readable typography and subtle animations.</p>
+          </article>
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">JS</span>
+            <h3>JavaScript</h3>
+            <p>Small, readable interactions like the mobile menu and contact form validation.</p>
+          </article>
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">A11y</span>
+            <h3>Accessibility</h3>
+            <p>Keyboard support, visible focus, good contrast and labelled forms, following WCAG principles.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS -->
+    <section class="section" aria-labelledby="featured-heading">
+      <div class="container">
+        <div class="section__intro">
+          <h2 id="featured-heading">Featured projects</h2>
+          <p>My main project is this portfolio. The other cards are examples that I'll replace with real work.</p>
+        </div>
+        <div class="grid grid--3">
+          <article class="card project-card">
+            <figure class="project-card__preview">
+              <img src="assets/images/portfolio-preview.svg" width="640" height="400" alt="Simple illustration of the portfolio layout: a headline, two buttons and three cards">
+            </figure>
+            <div class="project-card__body">
+              <span class="badge">Main project</span>
+              <h3>Personal Portfolio Website</h3>
+              <p>A four-page, responsive and accessible portfolio built for my internship assignment.</p>
+              <ul class="tag-list">
+                <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card project-card">
+            <figure class="project-card__preview">
+              <img src="assets/images/placeholder-preview.svg" width="640" height="400" alt="">
+            </figure>
+            <div class="project-card__body">
+              <span class="badge badge--placeholder">Example placeholder</span>
+              <h3>Example Project One</h3>
+              <p>Placeholder card. Real project details will be added here once they're ready.</p>
+            </div>
+          </article>
+          <article class="card project-card">
+            <figure class="project-card__preview">
+              <img src="assets/images/placeholder-preview.svg" width="640" height="400" alt="">
+            </figure>
+            <div class="project-card__body">
+              <span class="badge badge--placeholder">Example placeholder</span>
+              <h3>Example Project Two</h3>
+              <p>Placeholder card. Real project details will be added here once they're ready.</p>
+            </div>
+          </article>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn--ghost" href="projects.html">See all project details</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHORT INTRODUCTION -->
+    <section class="section section--tint" aria-labelledby="intro-heading">
+      <div class="container split">
+        <div>
+          <h2 id="intro-heading">A little about me</h2>
+          <p>I'm Archi, a BCA student who is new to web development and excited to learn. I'm completing a Web Development Internship at Thiranex EduTech LLP, where this portfolio is my assignment on HTML5 semantic structure and accessibility.</p>
+          <p>My goal is to build websites that look good and are usable by as many people as possible.</p>
+          <p><a href="about.html">Read more about my learning journey</a></p>
+        </div>
+        <aside class="aside-card" aria-labelledby="facts-heading">
+          <h2 id="facts-heading">Quick facts</h2>
+          <dl class="facts">
+            <div><dt>Name</dt><dd>Archi Gupta</dd></div>
+            <div><dt>Studying</dt><dd>BCA</dd></div>
+            <div><dt>Internship</dt><dd>Web Development, Thiranex EduTech LLP</dd></div>
+            <div><dt>Focus</dt><dd>Semantic HTML5 and accessibility</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- CONTACT CTA -->
+    <section class="section" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta-band">
+          <h2 id="cta-heading">Let's connect</h2>
+          <p>Have feedback on my work or a question about a project? I'd be glad to hear from you.</p>
+          <div class="btn-row">
+            <a class="btn btn--primary" href="contact.html">Go to the contact page</a>
+            <a class="btn btn--ghost" href="projects.html">Browse projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand">Archi Gupta</p>
+          <p>BCA student and aspiring web developer. Built with HTML5, CSS3 and vanilla JavaScript.</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer-bottom">&copy; <span id="current-year">2026</span> Archi Gupta. Created for the Web Development Internship at Thiranex EduTech LLP.</p>
+    </div>
+  </footer>
+</body>
+</html>
